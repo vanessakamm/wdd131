@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: black;
+  align-items: flex-end;
+  max-width: 100%;
+}
+
+.navigation a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px;
+  
+}
+
+.navigation a:hover {
+  color: #ccc;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  
+}
+
+main h2 {
+  color: #333;
+}
+
+/* Footer Styles */
+footer {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}G
