@@ -3,8 +3,12 @@ header{
   background-color:pink;
   text-align: center;
 }
-
-
+  
+h1{
+  font-family: "Pacifico", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 nav {
   display:block;
   display:flex;
@@ -31,11 +35,4 @@ footer p{
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-h1{
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: #280b3b;
 }
