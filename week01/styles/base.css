@@ -1,37 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
-:root {
-  --heading-font: 'Pacifico', cursive;
-  --paragraph-font: 'Itim', cursive;
+header{
+  display:block;
+  background-color:pink;
+  text-align: center;
 }
-
-body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
+  
 }
-
-h1 {
-  font-family: var(--heading-font);
+h1{
+  font-family: "Pacifico", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-
-nav a {  
-  font-family: var(--paragraph-font);
+nav {
+  display:block;
+  display:flex;
+  justify-content:space-around;
+  background-color:red;
+  font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;  
 }
 
-header {
-  font-family: var(--paragraph-font);
+header{
+  font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
-footer p {  
-  font-family: var(--paragraph-font);
+main{ 
+  display:grid;
+  grid-template-columns: 1.5fr 0.5fr; 
+  grid-template-rows: 1fr;
+  
+}
+  
+}
+footer p{  
+  font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
 }
