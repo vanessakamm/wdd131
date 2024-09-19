@@ -4,14 +4,7 @@ header{
   text-align: center;
 }
   
-h1{
-  font-family: "Pacifico", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  color: #280b3b;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
-               0 0 20px rgba(0, 255, 255, 0.6); 
-}
+
 
 nav {
   display:block;
@@ -39,4 +32,13 @@ footer p{
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+h1{
+  font-family: "Pacifico", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #280b3b;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+               0 0 20px rgba(0, 255, 255, 0.6); 
 }
