@@ -11,7 +11,7 @@ h1{
   color: #F27999; 
   text-shadow: 
     0 0 10px rgba(244, 192, 255, 0.8), /* Dark purple shadow */
-    0 0 20px rgba(235, 97, 228, 0.829);
+    0 0 20px rgba(255, 239, 11, 0.945);
 }
 nav {
   display:block;
@@ -39,8 +39,10 @@ nav {
 }
 nav a {            
   margin-right: 15px;
-  font-family:"Itim", cursive;
-  color:black;
+  font-family: "Itim", cursive;
+  color: #F27999;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
   text-decoration: none}
 header{
   font-family: "Itim", cursive;
