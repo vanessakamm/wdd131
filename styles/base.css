@@ -4,12 +4,16 @@ body {
 }
 
 header {
-  display: block;
   background-color: #c54c82; /* Dark Pink */
   text-align: center;
   padding-top: 5px;
 }
-
+main{
+  display:grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  
+  }
 h1 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
@@ -22,6 +26,7 @@ h1 {
 
 nav {
   max-width: 100%;
+  display:block;
   display: flex;
   justify-content: space-around;
   background-color: #ec729c; /* Medium Pink */
@@ -100,3 +105,7 @@ footer {
 .LastModifiedElement {
   color: #000000; /* Dark text */
 }
+.link {
+  display:flex;
+  flex-direction: column;
+  }
