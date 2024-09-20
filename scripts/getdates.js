@@ -12,3 +12,9 @@ const footer = document.querySelector('footer');
 if (footer) {
     footer.appendChild(summaryNote);
 }
+// Get the last modified date and add it to the second paragraph
+const lastModifiedElement = document.createElement('p');
+lastModifiedElement.textContent = `Last modified: ${document.lastModified}`;
+if (footer) {
+    footer.appendChild(lastModifiedElement);
+}
