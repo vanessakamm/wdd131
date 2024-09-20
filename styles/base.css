@@ -112,6 +112,7 @@ footer {
 .link {
   display:flex;
   flex-direction: column;
+  align-items: center;
   }
 
   .link a:hover {
@@ -124,5 +125,5 @@ footer {
     color: #060505;
     text-decoration: none;
     transition: color 0.3s ease, text-shadow 0.3s ease;
-    justify-content: center;
+  
   }
