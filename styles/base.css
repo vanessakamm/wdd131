@@ -1,95 +1,89 @@
-header{
-  display:block;
-  background-color:#FBA826;
+header {
+  display: block;
+  background-color: #FBA826;
   text-align: center;
+  font-family: "Itim", cursive;
+  font-weight: 400;
 }
-  
-h1{
+
+h1 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  font-style: normal;
   color: #fcfcfc; 
   text-shadow: 
     0 0 10px rgba(255, 94, 255, 0.589), /* Dark purple shadow */
     0 0 20px rgba(255, 11, 182, 0.945);
 }
+
 nav {
-  display:block;
-  display:flex;
-  justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
   background-color: #f7d6ef;
   font-family: "Itim", cursive;
   font-weight: 400;
-  font-style: normal;
   padding: 15px; 
 }
+
+nav a {            
+  margin-right: 15px;
+  color: #F27999;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  color: #D15C8A; /* Darker shade on hover */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
 .card { 
   background-color: #F27999;
+  display: flex;
   justify-content: space-between; 
   align-items: center; 
-
 }
+
 .card img { 
   width: 150px;
   height: auto;
   border: 1px solid rgb(250, 250, 248);
   padding: 2px;
-  float: right ;
   box-shadow: 0 0 30px rgb(252, 255, 57);
   margin: 1rem;
 }
-h2{
-  
-}
-nav a {            
-  margin-right: 15px;
-  font-family: "Itim", cursive;
-  color: #F27999;
-  text-decoration: none;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-  text-decoration: none}
 
-
-
-
-
-header{
-  font-family: "Itim", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-main{ 
-  display:grid;
+main { 
+  display: grid;
   grid-template-columns: 1.5fr 0.5fr; 
   grid-template-rows: 1fr;
-  
-}
-p{  
-  font-family: "Itim", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color:bisque;
+  max-width: 1200px; /* Set a max width for the main content */
+  margin: 0 auto; /* Center the main content */
 }
 
-.hk img{
+p {  
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  color: bisque;
+}
+
+.hk img {
   width: 150px;
   height: auto;
   border: 1px solid rgb(250, 250, 248);
   padding: 2px;
-  float: left;
   box-shadow: 0 0 30px rgb(252, 255, 57);
   margin: 1rem;
-
 }
-footer{
-  display:inline-block;
-  width:100%;
+
+footer {
+  display: block;
+  width: 100%;
   background-color: #f7d6ef;
-
+  text-align: center; /* Center text in footer */
 }
-footer p{  
+
+footer p {  
   font-family: "Itim", cursive;
   font-weight: 400;
-  font-style: normal;
   color: #F27999;
 }
