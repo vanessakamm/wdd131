@@ -49,7 +49,7 @@ nav a {
 
 
 
-  
+
 header{
   font-family: "Itim", cursive;
   font-weight: 400;
@@ -80,6 +80,7 @@ p{
 }
 footer{
   display:inline-block;
+  width:100%;
   background-color: #f7d6ef;
 
 }
