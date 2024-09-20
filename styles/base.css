@@ -117,9 +117,12 @@ footer{
     text-align: center; }
 
  
-  #footer{
+#year{
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #F27999;
+}
+.last-modified {
   color: #F27999;
 }
