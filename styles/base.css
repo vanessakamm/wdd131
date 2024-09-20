@@ -22,7 +22,8 @@ nav {
   font-weight: 400;
   font-style: normal;  
 }
-.card { background-color: #F27999;
+.card { 
+  background-color: #F27999;
   justify-content: space-between; 
   align-items: center; 
 
