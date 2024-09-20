@@ -23,7 +23,9 @@ nav {
   font-style: normal;  
 }
 
-
+nav a {            
+  margin-right: 15px;
+  text-decoration: none}
 header{
   font-family: "Itim", cursive;
   font-weight: 400;
