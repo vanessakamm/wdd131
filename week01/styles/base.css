@@ -9,8 +9,9 @@ h1{
   font-weight: 400;
   font-style: normal;
   color: #f7d6ef; 
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 
-               0 0 20px rgba(255, 54, 108, 0.6); 
+  text-shadow: 
+    0 0 10px rgba(128, 0, 128, 0.8), /* Dark purple shadow */
+    0 0 20px rgba(255, 20, 147, 0.6);
 }
 nav {
   display:block;
