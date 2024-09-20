@@ -23,6 +23,15 @@ nav {
   font-style: normal;  
 }
 
+.card img {
+  width: 150px;
+  height: auto;
+  border: 1px solid pink;
+  padding: 2px;
+  box-shadow: 0 0 30px pink;
+  float: right;
+  margin: 1rem;
+}
 nav a {            
   margin-right: 15px;
   text-decoration: none}
