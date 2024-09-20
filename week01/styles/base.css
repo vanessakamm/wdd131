@@ -31,9 +31,6 @@ nav {
   border: 1px solid pink;
   padding: 2px;
   box-shadow: 0 0 30px pink;
-  float: right;
-  display: flex;
-  align-items: center;
   margin: 1rem;
 }
 nav a {            
