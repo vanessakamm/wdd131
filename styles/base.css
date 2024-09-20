@@ -82,7 +82,7 @@ footer {
   text-align: center; /* Center text in footer */
 }
 
-footer p {  
+footer span {  
   font-family: "Itim", cursive;
   font-weight: 400;
   color: #F27999;
