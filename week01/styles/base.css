@@ -1,6 +1,6 @@
 header{
   display:block;
-  background-color:pink;
+  background-color:#FBA826;
   text-align: center;
 }
   
@@ -13,11 +13,12 @@ nav {
   display:block;
   display:flex;
   justify-content:space-around;
-  background-color:red;
+  background-color:#F27999 ;
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;  
 }
+
 
 header{
   font-family: "Itim", cursive;
