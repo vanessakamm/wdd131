@@ -13,10 +13,11 @@ header {
 h1 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  color: #000000; 
+  color: #3a270a;
   text-shadow: 
-      0 0 10px rgba(255, 94, 255, 0.589), /* Dark purple shadow */
-      0 0 20px rgba(255, 11, 182, 0.945);
+  0 0 10px rgba(247, 120, 247, 0.589), /* Dark purple shadow */
+  0 0 20px rgba(255, 255, 255, 0.945);
+
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 nav a {
   margin-right: 15px;
   font-family: "Itim", cursive;
-  color: #3a270a; /* Dark text */
+  color: #000000; /* Dark text */
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -61,10 +62,10 @@ nav a:hover {
 h2 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  color: #000000; 
+  color: #3a270a; 
   text-shadow: 
-      0 0 10px rgba(255, 94, 255, 0.589), /* Dark purple shadow */
-      0 0 20px rgba(255, 11, 182, 0.945);
+      0 0 10px rgba(247, 120, 247, 0.589), /* Dark purple shadow */
+      0 0 20px rgba(255, 255, 255, 0.945);
 }
 
 p {  
@@ -93,9 +94,9 @@ footer {
 #year {
   font-family: "Itim", cursive;
   font-weight: 400;
-  color: #000000;
+  color: #3a270a;
 }
 
 .LastModifiedElement {
-  color: #3a270a; /* Dark text */
+  color: #000000; /* Dark text */
 }
