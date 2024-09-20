@@ -9,7 +9,7 @@ const lastModifiedElement = document.createElement('p');
 lastModifiedElement.textContent = `Last modified: ${document.lastModified}`;
 lastModifiedElement.classList.add('last-modified'); // Add class for styling
 
-const footer = document.querySelector('footer'); // Ensure this targets your footer
+const footer = document.querySelector('footer'); 
 
 if (footer) {
     footer.appendChild(lastModifiedElement);
