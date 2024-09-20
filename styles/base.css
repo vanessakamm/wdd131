@@ -8,9 +8,9 @@ h1{
   font-family: "Pacifico", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff; 
+  color: #b643ac; 
   text-shadow: 
-    0 0 10px rgba(48, 9, 56, 0.8), /* Dark purple shadow */
+    0 0 10px rgba(244, 192, 255, 0.8), /* Dark purple shadow */
     0 0 20px rgba(235, 97, 228, 0.829);
 }
 nav {
@@ -53,6 +53,13 @@ main{
   grid-template-rows: 1fr;
   
 }
+p{  
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:bisque;
+}
+
 .hk img{
   width: 100px;
   height: auto;
