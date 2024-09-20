@@ -22,14 +22,16 @@ nav {
   font-weight: 400;
   font-style: normal;  
 }
+.card { background-color: #f7d6ef;
 
-.card img {
-  width: 150px;
+}
+.card img { 
+  width: auto;
   height: auto;
   border: 1px solid pink;
   padding: 2px;
   box-shadow: 0 0 30px pink;
-  float: right;
+  float: left;
   margin: 1rem;
 }
 nav a {            
