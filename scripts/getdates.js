@@ -1,4 +1,3 @@
-
 const currentYear = new Date().getFullYear();
 
 const yearElement = document.getElementById('year');
@@ -7,7 +6,6 @@ if (yearElement) {yearElement.textContent = `©️${currentYear} 🌸Kam Yi Chin
 
 const lastModifiedElement = document.createElement('p');
 lastModifiedElement.textContent = `Last modified: ${document.lastModified}`;
-
 if (footer) {
-    footer.appendChild(lastModifiedElement);
+footer.appendChild(lastModifiedElement);
 }
