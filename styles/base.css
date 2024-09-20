@@ -13,7 +13,7 @@ h1{
   font-family: "Pacifico", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: #fcfcfc; 
+  color: #000000; 
   text-shadow: 
     0 0 10px rgba(255, 94, 255, 0.589), /* Dark purple shadow */
     0 0 20px rgba(255, 11, 182, 0.945);
@@ -30,13 +30,13 @@ nav {
   padding: 18px; 
 }
 nav a:hover {
-  color: #D15C8A; /* Darker shade on hover */
+  color: #00e1ff; /* Darker shade on hover */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 .card a {  font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
-  color:bisque;
+  color:rgb(255, 255, 255);
 }
 
 section a:hover{ color: #D15C8A; /* Darker shade on hover */
@@ -60,7 +60,7 @@ section a:hover{ color: #D15C8A; /* Darker shade on hover */
 h2{  font-family: "Pacifico", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: #fcfcfc; 
+  color: #000000; 
   text-shadow: 
     0 0 10px rgba(255, 94, 255, 0.589), /* Dark purple shadow */
     0 0 20px rgba(255, 11, 182, 0.945);
@@ -97,7 +97,7 @@ p{
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
-  color:bisque;
+  color:rgb(255, 255, 255);
 }
 
 .hk img{
