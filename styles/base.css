@@ -6,7 +6,7 @@ header {
   font-weight: 400;
 }
 
-h1 {
+h1 , h2 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
   color: #fcfcfc; 
