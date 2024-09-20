@@ -11,7 +11,7 @@ h1{
   color: #fcfcfc; 
   text-shadow: 
     0 0 10px rgba(255, 94, 255, 0.589), /* Dark purple shadow */
-    0 0 20px rgba(255, 239, 11, 0.945);
+    0 0 20px rgba(255, 11, 182, 0.945);
 }
 nav {
   display:block;
