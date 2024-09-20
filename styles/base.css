@@ -8,10 +8,10 @@ h1{
   font-family: "Pacifico", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: #ffd0ea; 
+  color: #ffc7e6; 
   text-shadow: 
     0 0 10px rgba(208, 82, 233, 0.8), /* Dark purple shadow */
-    0 0 20px rgba(255, 166, 251, 0.829);
+    0 0 20px rgba(235, 97, 228, 0.829);
 }
 nav {
   display:block;
