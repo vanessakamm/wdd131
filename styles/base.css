@@ -72,9 +72,13 @@ p{
   margin: 1rem;
 
 }
-  
+footer{
+  background-color: #f7d6ef;
+
+}
 footer p{  
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #F27999;
 }
