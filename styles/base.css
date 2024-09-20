@@ -1,10 +1,10 @@
 body {
   max-width: 100%;
-  background-color: #fdfdcb; /* Soft Yellow */
+  background-color: #F7C5CC; /* Soft Yellow */
 }
 
 header {
-  background-color: #c54c82; /* Dark Pink */
+  background-color:#CC313D ; /* Dark Pink */
   text-align: center;
   padding-top: 5px;
 }
@@ -17,7 +17,7 @@ main{
 h1 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  color: #fff4e4;
+  color: #FFFFFF;
   text-shadow: 
   0 0 10px rgba(247, 120, 247, 0.589), /* Dark purple shadow */
   0 0 20px rgba(255, 255, 255, 0.945);
@@ -29,7 +29,7 @@ nav {
   display:block;
   display: flex;
   justify-content: space-around;
-  background-color: #ec729c; /* Medium Pink */
+  background-color: #F7C5CC; /* Medium Pink */
   font-family: "Itim", cursive;
   font-weight: 400;
   padding: 18px; 
@@ -38,7 +38,7 @@ nav {
 nav a {
   margin-right: 15px;
   font-family: "Itim", cursive;
-  color: #000000; /* Dark text */
+  color: #6E1438; /* Dark text */
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 .card {
-  background-color: #9772c7; /* Light Pink */
+  background-color: #cc313d ; /* Light Pink */
   justify-content: space-between; 
   align-items: center; 
 }
@@ -67,7 +67,7 @@ nav a:hover {
 h2 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  color: #fff4e4; 
+  color: #FFFFFF; 
   text-shadow: 
       0 0 10px rgba(247, 120, 247, 0.589), /* Dark purple shadow */
       0 0 20px rgba(255, 255, 255, 0.945);
@@ -92,7 +92,7 @@ p {
 footer {
   display: block;
   width: 100%;
-  background-color: #ec729c; /* Medium Pink */
+  background-color: #E0838A; /* Medium Pink */
   text-align: center;
 }
 
@@ -103,7 +103,7 @@ footer {
 }
 
 .LastModifiedElement {
-  color: #000000; /* Dark text */
+  color: #11050C; /* Dark text */
 }
 .link {
   display:flex;
