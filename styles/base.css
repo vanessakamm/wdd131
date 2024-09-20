@@ -2,10 +2,11 @@ body{
   max-width:100%
 }
 header{
+
   display:block;
   background-color:#FBA826;
   text-align: center;
-  padding:10px;
+  padding-top:5px;
 }
   
 h1{
@@ -18,6 +19,7 @@ h1{
     0 0 20px rgba(255, 11, 182, 0.945);
 }
 nav {
+  max-width:100%;
   display:block;
   display:flex;
   justify-content:space-around;
