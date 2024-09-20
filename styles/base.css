@@ -104,14 +104,12 @@ p{
 
 }
 footer{
-  footer {
     display: block;
     width: 100%;
     background-color: #f7d6ef;
     text-align: center; /* Center text in footer */
-  }
 }
-footer p{  
+footer span{  
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
