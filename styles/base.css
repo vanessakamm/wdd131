@@ -17,7 +17,7 @@ main{
 h1 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  color: #3a270a;
+  color: #fff4e4;
   text-shadow: 
   0 0 10px rgba(247, 120, 247, 0.589), /* Dark purple shadow */
   0 0 20px rgba(255, 255, 255, 0.945);
@@ -67,7 +67,7 @@ nav a:hover {
 h2 {
   font-family: "Pacifico", system-ui;
   font-weight: 400;
-  color: #3a270a; 
+  color: #fff4e4; 
   text-shadow: 
       0 0 10px rgba(247, 120, 247, 0.589), /* Dark purple shadow */
       0 0 20px rgba(255, 255, 255, 0.945);
